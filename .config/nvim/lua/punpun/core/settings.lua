@@ -19,4 +19,5 @@ o.splitright = true
 o.splitbelow = true
 o.cmdheight = 0
 o.showmode = false
-o.conceallevel = 0
+o.conceallevel = 2
+o.scrolloff = 8

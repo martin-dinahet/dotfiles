@@ -6,7 +6,7 @@ return {
     wk.setup({
       icons = {
         mappings = false,
-      }
+      },
     })
     -- SEARCH --
     wk.add({
@@ -17,16 +17,10 @@ return {
       {
         '<leader>sf',
         desc = 'Search for files',
-        function()
-          vim.cmd('Telescope find_files')
-        end
       },
       {
         '<leader>sb',
         desc = 'Search for buffers',
-        function()
-          vim.cmd('Telescope buffers')
-        end
       },
     })
     -- FILES --
@@ -38,24 +32,42 @@ return {
       {
         '<leader>fe',
         desc = 'Open file explorer',
-        function()
-          vim.cmd('Oil')
-        end
       },
       {
         '<leader>fs',
         desc = 'Save file',
-        function()
-          vim.cmd('write')
-        end
       },
       {
         '<leader>fq',
         desc = 'Save and quit file',
-        function()
-          vim.cmd('wq')
-        end
       }
+    })
+    -- NEORG --
+    wk.add({
+      {
+        '<leader>n',
+        group = ' Notes',
+      },
+      {
+        '<leader>nn',
+        desc = 'New note',
+      },
+      {
+        '<leader>nt',
+        desc = 'Todo item'
+      },
+      {
+        '<leader>ni',
+        desc = 'Go to index'
+      },
+      {
+        '<leader>nl',
+        desc = 'List item'
+      },
+      {
+        '<leader>nm',
+        desc = 'Magnify code block'
+      },
     })
   end
 }
