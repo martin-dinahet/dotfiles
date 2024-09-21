@@ -1,0 +1,8 @@
+icons:
+  theme: unicode
+
+sorting:
+  column: name
+  dir-grouping: last
+
+no-symlink: true 

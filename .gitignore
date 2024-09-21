@@ -1,0 +1,12 @@
+.dotnet
+.local
+.cache
+.npm
+.config/tmux/plugins
+.config/gh/
+.password-store
+.gnupg
+.tmux
+.gitconfig
+.ssh
+.oh-my-zsh
