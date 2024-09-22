@@ -11,6 +11,11 @@ return {
       ['core.neorgcmd'] = {},
       ['core.tangle'] = {},
       ['core.summary'] = {},
+      ['core.completion'] = {
+        config = {
+          engine = 'nvim-cmp'
+        }
+      },
       ['core.concealer'] = {
         config = {
           icons = {
