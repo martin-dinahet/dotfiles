@@ -16,8 +16,6 @@ map('n', '<leader>nn', '<Plug>(neorg.dirman.new-note)')
 map('n', '<leader>nt', '<Plug>(neorg.qol.todo-items.todo.task-cycle)')
 map('n', '<leader>nl', '<Plug>(neorg.pivot.list.toggle)')
 map('n', '<leader>nm', '<Plug>(neorg.looking-glass.magnify-code-block)')
-map('n', '<leader>ni', '<cmd>Neorg index<cr>')
-
 
 map('n', '>', '<Plug>(neorg.promo.promote.nested)')
 map('n', '<', '<Plug>(neorg.promo.demote.nested)')

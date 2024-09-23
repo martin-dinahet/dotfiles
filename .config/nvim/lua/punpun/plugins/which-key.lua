@@ -57,10 +57,6 @@ return {
         desc = 'Todo item'
       },
       {
-        '<leader>ni',
-        desc = 'Go to index'
-      },
-      {
         '<leader>nl',
         desc = 'List item'
       },
