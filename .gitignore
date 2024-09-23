@@ -4,7 +4,6 @@
 .npm
 .config/tmux/plugins
 .config/gh/
-.password-store
 .gnupg
 .tmux
 .gitconfig
