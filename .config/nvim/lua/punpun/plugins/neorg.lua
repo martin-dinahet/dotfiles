@@ -1,56 +1,56 @@
 return {
-  'nvim-neorg/neorg',
+  "nvim-neorg/neorg",
   lazy = false,
-  version = '*',
+  version = "*",
   opts = {
     load = {
-      ['core.defaults'] = {},
-      ['core.pivot'] = {},
-      ['core.looking-glass'] = {},
-      ['core.integrations.treesitter'] = {},
-      ['core.neorgcmd'] = {},
-      ['core.tangle'] = {},
-      ['core.summary'] = {},
-      ['core.completion'] = {
+      ["core.defaults"] = {},
+      ["core.pivot"] = {},
+      ["core.looking-glass"] = {},
+      ["core.integrations.treesitter"] = {},
+      ["core.neorgcmd"] = {},
+      ["core.tangle"] = {},
+      ["core.summary"] = {},
+      ["core.completion"] = {
         config = {
-          engine = 'nvim-cmp'
-        }
+          engine = "nvim-cmp",
+        },
       },
-      ['core.concealer'] = {
+      ["core.concealer"] = {
         config = {
           icons = {
             todo = {
               undone = {
-                icon = '×',
+                icon = "×",
               },
               done = {
-                icon = '󰄬',
+                icon = "󰄬",
               },
               pending = {
-                icon = '󰁔',
-              }
-            }
+                icon = "󰁔",
+              },
+            },
           },
-        }
+        },
       },
-      ['core.dirman'] = {
+      ["core.dirman"] = {
         config = {
           workspaces = {
-            punpun = '~/documents/'
+            punpun = "~/documents/",
           },
-          default_workspace = 'punpun',
-        }
+          default_workspace = "punpun",
+        },
       },
-      ['core.keybinds'] = {
+      ["core.keybinds"] = {
         config = {
           default_keybinds = false,
         },
       },
-      ['core.journal'] = {
+      ["core.journal"] = {
         config = {
-          journal_folder = 'journal'
-        }
-      }
-    }
-  }
+          journal_folder = "journal",
+        },
+      },
+    },
+  },
 }

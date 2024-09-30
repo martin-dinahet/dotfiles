@@ -1,14 +1,14 @@
 return {
-  'nvim-lualine/lualine.nvim',
+  "nvim-lualine/lualine.nvim",
   dependencies = {
-    'nvim-tree/nvim-web-devicons'
+    "nvim-tree/nvim-web-devicons",
   },
   opts = {
     options = {
       icons_enabled = true,
-      theme = 'auto',
-      component_separators = { left = '', right = ''},
-      section_separators = { left = '', right = ''},
+      theme = "auto",
+      component_separators = { left = "", right = "" },
+      section_separators = { left = "", right = "" },
       disabled_filetypes = {
         statusline = {},
         winbar = {},
@@ -20,15 +20,15 @@ return {
         statusline = 1000,
         tabline = 1000,
         winbar = 1000,
-      }
+      },
     },
     sections = {
-      lualine_a = {'mode'},
-      lualine_b = {'diagnostics'},
+      lualine_a = { "mode" },
+      lualine_b = { "diagnostics" },
       lualine_c = {},
       lualine_x = {},
       lualine_y = {},
-      lualine_z = {'filename'}
+      lualine_z = { "filename" },
     },
     inactive_sections = {
       lualine_a = {},
@@ -36,11 +36,11 @@ return {
       lualine_c = {},
       lualine_x = {},
       lualine_y = {},
-      lualine_z = {}
+      lualine_z = {},
     },
     tabline = {},
     winbar = {},
     inactive_winbar = {},
-    extensions = {}
+    extensions = {},
   },
 }
