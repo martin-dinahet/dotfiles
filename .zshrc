@@ -1,4 +1,4 @@
-ZSH_THEME="robbyrussell"
+export ZSH_THEME="robbyrussell"
 export ZSH="$HOME/.oh-my-zsh"
 export COLORTERM=truecolor
 plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
@@ -26,5 +26,3 @@ alias sm="clear && sudo rm -rf"
 alias sk="clear && sudo mkdir -p"
 
 alias cd="clear && z"
-
-alias reset="clear && ~/scripts/reset.sh"
