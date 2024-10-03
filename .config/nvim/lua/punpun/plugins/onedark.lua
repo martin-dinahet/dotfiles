@@ -1,6 +1,7 @@
 return {
 	"navarasu/onedark.nvim",
-	lazy = false,
+	event = { "VeryLazy" },
+	command = { "colorscheme" },
 	config = function()
 		vim.cmd.colorscheme("onedark")
 		require("onedark").setup({
