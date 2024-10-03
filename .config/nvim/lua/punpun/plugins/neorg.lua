@@ -1,6 +1,6 @@
 return {
   "nvim-neorg/neorg",
-  lazy = false,
+  ft = "norg",
   version = "*",
   opts = {
     load = {
