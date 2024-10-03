@@ -26,3 +26,5 @@ alias sm="clear && sudo rm -rf"
 alias sk="clear && sudo mkdir -p"
 
 alias cd="clear && z"
+
+alias note="clear && ~/.notes.sh"
