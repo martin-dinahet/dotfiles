@@ -27,4 +27,4 @@ alias sk="clear && sudo mkdir -p"
 
 alias cd="clear && z"
 
-alias note="clear && ~/.notes.sh"
+alias quick-note="clear && ~/.notes.sh"
