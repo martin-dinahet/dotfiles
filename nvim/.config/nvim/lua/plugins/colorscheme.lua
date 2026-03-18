@@ -1,9 +1,10 @@
 return {
-    "navarasu/onedark.nvim",
+    "catppuccin/nvim",
+    name = "catppuccin",
     version = false,
     lazy = false,
     opts = {},
     config = function()
-        vim.cmd.colorscheme("onedark")
+        vim.cmd.colorscheme("catppuccin")
     end
 }

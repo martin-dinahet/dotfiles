@@ -1,0 +1,23 @@
+[
+  {
+    "bindings": {
+      "ctrl-e": "workspace::ToggleLeftDock",
+      "ctrl-t": "workspace::ToggleBottomDock",
+      "ctrl-h": "workspace::ActivatePaneLeft",
+      "ctrl-j": "workspace::ActivatePaneDown",
+      "ctrl-k": "workspace::ActivatePaneUp",
+      "ctrl-l": "workspace::ActivatePaneRight",
+    },
+  },
+  {
+    "context": "ProjectPanel && !editing",
+    "bindings": {
+      "a": "project_panel::NewFile",
+      "d": "project_panel::Delete",
+      "r": "project_panel::Rename",
+      "x": "project_panel::Cut",
+      "y": "project_panel::Copy",
+      "p": "project_panel::Paste",
+    },
+  },
+]
