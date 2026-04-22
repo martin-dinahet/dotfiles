@@ -4,20 +4,20 @@
       "settings": {
         "typescript": {
           "updateImportsOnFileMove": {
-            "enabled": "always"
-          }
+            "enabled": "always",
+          },
         },
         "javascript": {
           "updateImportsOnFileMove": {
-            "enabled": "always"
-          }
-        }
+            "enabled": "always",
+          },
+        },
       },
-      "enable_lsp_tasks": true
-    }
+      "enable_lsp_tasks": true,
+    },
   },
   "git_panel": {
-    "tree_view": true
+    "tree_view": true,
   },
   "vim_mode": true,
   "multi_cursor_modifier": "cmd_or_ctrl",
